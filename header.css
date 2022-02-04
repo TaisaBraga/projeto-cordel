@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte-p: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-cordel: 'Sriracha', cursive;
+}
+
+header {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+}
+
+header > h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 8vw;
+}
+
+header > p {
+  font-family: var(--fonte-p);
+  font-size: 1em;
+}
+
+header > p > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header > p > a:hover {
+  text-decoration: underline;
+}

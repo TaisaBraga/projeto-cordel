@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte-p: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-cordel: 'Sriracha', cursive;
+}
+
+div {
+  font-family: var(--fonte-cordel);
+  font-size: 2em;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+}
+
+div > p {
+  padding-bottom: 1em;
+}
+
+.image {
+  background-position: right center;
+  background-attachment: fixed;
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+}
+
+#image01 {
+  background-image: url(./imagens/background001.jpg);
+  background-size: cover;
+}
+
+#image02 {
+  background-image: url(./imagens/background002.jpg);
+  background-size: cover;
+}
+
+.image > p {
+  background-color: rgba(0, 0, 0, 0.514);
+  display: inline-block;
+  padding: 10px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.678);
+}

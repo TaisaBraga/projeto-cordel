@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte-p: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-cordel: 'Sriracha', cursive;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: var(--fonte-p);
+  font-size: 0.8em;
+  padding: 8px;
+  text-align: center;
+}
+
+footer > p > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
